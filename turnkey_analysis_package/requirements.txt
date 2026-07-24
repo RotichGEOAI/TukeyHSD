@@ -1,0 +1,25 @@
+# Turnkey Statistical Analysis Pipeline
+# Production Dependencies
+# Python >= 3.9 required
+
+# Core Framework
+streamlit>=1.28.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+openpyxl>=3.1.0          # Excel file support
+
+# Statistical Analysis
+scipy>=1.11.0
+statsmodels>=0.14.0      # ANOVA, Tukey HSD, regression diagnostics
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Machine Learning (for future extensions)
+scikit-learn>=1.3.0
+
+# Optional: Enhanced performance
+# pyarrow>=12.0.0          # Faster CSV reading for large datasets
